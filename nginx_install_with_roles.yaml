@@ -2,5 +2,5 @@
 - name: nginx install
   hosts: nodes
   become: true
-  role:
-    - role: ./roles/nginx
+  roles:
+    - role: ~/project3_role/roles/nginx
