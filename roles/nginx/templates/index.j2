@@ -8,8 +8,8 @@
 	<p><h2> 유성욱 </h2></p>
 	<p><h2>ANSIBLE TEST PAGE</h2></p>
 	<p>NGINX NUMBER : {{idx}}/{{nu}}</p>
-	<p>{{ ansible_host }}</p>
-	<p>{{ ansible_address }} </p>
+	<p>{{ ansible_all_ipv4_addresses[0] }}</p>
+	<p>{{ ansible_all_ipv4_addresses[1] }}</p>
 	</center>
 </body>
 </html>
