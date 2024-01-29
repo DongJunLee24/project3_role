@@ -1,6 +1,6 @@
 ---
 - name: nginx install
-  hosts: koreaeast
+  hosts: nodes
   become: true
   role:
     - role: ./roles/nginx
