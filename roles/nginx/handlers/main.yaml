@@ -1,0 +1,5 @@
+---
+- name: WebSV_Restart
+  service: 
+     name: nginx
+     state: restarted
