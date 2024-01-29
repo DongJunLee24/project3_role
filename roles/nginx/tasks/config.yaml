@@ -6,4 +6,4 @@
     mode: 0644
     backup: yes
   notify:
-    - restart nginx web server
+    - WebSV_Restart
